@@ -1,0 +1,4 @@
+# Retest timing. Both windows are my assumptions, not from the brief.
+test: retest_6m          # the catalogue test that counts as the six-month retest
+due_soon_days: 30        # start showing the retest as due this many days ahead
+early_retest_days: 30    # a clinic test up to this many days early still counts as done

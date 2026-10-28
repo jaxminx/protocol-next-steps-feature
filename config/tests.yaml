@@ -1,0 +1,10 @@
+# Test catalogue. Names and member prices (S$) are made up.
+# The six-month retest covers several markers; every other test covers one.
+retest_6m:    {name: Six-month retest, price_sgd: 180, covers: [ldl, hscrp, vitd]}
+lipid_panel:  {name: Lipid panel,      price_sgd: 70,  covers: [ldl]}
+apob_addon:   {name: ApoB add-on,      price_sgd: 45,  covers: [apob]}
+hba1c_test:   {name: HbA1c test,       price_sgd: 40,  covers: [hba1c]}
+crp_test:     {name: hs-CRP test,      price_sgd: 35,  covers: [hscrp]}
+vitd_test:    {name: Vitamin D test,   price_sgd: 50,  covers: [vitd]}
+iron_studies: {name: Iron studies,     price_sgd: 60,  covers: [ferritin]}
+glucose_test: {name: Glucose test,     price_sgd: 30,  covers: [glucose]}

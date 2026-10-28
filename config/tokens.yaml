@@ -1,0 +1,2 @@
+# Stand-in for login: a demo token and the member it belongs to.
+demo-alex: {member_id: alex_lim, preferred_name: Alex}

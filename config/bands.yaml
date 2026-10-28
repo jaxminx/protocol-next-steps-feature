@@ -1,0 +1,12 @@
+# Status bands per marker, in display units. These are placeholders I made up;
+# in practice the doctors would own them.
+#
+# le = at most, lt = below, ge = at least, gt = above.
+# A value that is neither optimal nor moderate needs attention.
+ldl:      {optimal: {le: 2.6},  moderate: {le: 3.4}}                 # mmol/L
+apob:     {optimal: {le: 0.90}, moderate: {le: 1.10}}                # g/L
+hba1c:    {optimal: {lt: 39},   moderate: {lt: 48}}                  # mmol/mol
+hscrp:    {optimal: {le: 1.0},  moderate: {le: 3.0}}                 # mg/L
+vitd:     {optimal: {ge: 75},   moderate: {ge: 50}}                  # nmol/L
+ferritin: {optimal: {ge: 30, le: 200}, moderate: {ge: 20, le: 300}}  # µg/L, male range
+glucose:  {optimal: {lt: 5.6},  moderate: {lt: 7.0}}                 # mmol/L

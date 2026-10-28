@@ -1,0 +1,221 @@
+{
+  "member": {
+    "name": "Alex Lim",
+    "age": 41,
+    "sex": "M",
+    "programme": "Core Health Test"
+  },
+  "membership": {
+    "renews": "2027-03-14",
+    "retest_due": "2026-09-14"
+  },
+  "today": "2026-10-26",
+  "reports": [
+    {
+      "id": "R1",
+      "date": "2025-03-12",
+      "type": "core",
+      "source": "protocol",
+      "longevity": {
+        "protocol_score": 68,
+        "bio_age": 44.1,
+        "pace_of_ageing": 1.08
+      }
+    },
+    {
+      "id": "R2",
+      "date": "2025-09-10",
+      "type": "retest",
+      "source": "protocol"
+    },
+    {
+      "id": "R3",
+      "date": "2026-03-14",
+      "type": "core",
+      "source": "protocol",
+      "longevity": {
+        "protocol_score": 74,
+        "bio_age": 41.3,
+        "pace_of_ageing": 0.92
+      }
+    },
+    {
+      "id": "U1",
+      "date": "2026-07-02",
+      "type": "upload",
+      "source": "external",
+      "lab": "Another clinic",
+      "review": "pending"
+    }
+  ],
+  "results": [
+    {
+      "report": "R1",
+      "marker": "LDL Cholesterol",
+      "value": 3.9,
+      "unit": "mmol/L"
+    },
+    {
+      "report": "R1",
+      "marker": "ApoB",
+      "value": 1.15,
+      "unit": "g/L"
+    },
+    {
+      "report": "R1",
+      "marker": "HbA1c",
+      "value": 40,
+      "unit": "mmol/mol"
+    },
+    {
+      "report": "R1",
+      "marker": "hs-CRP",
+      "value": 2.8,
+      "unit": "mg/L"
+    },
+    {
+      "report": "R1",
+      "marker": "Vitamin D (25-OH)",
+      "value": 52,
+      "unit": "nmol/L"
+    },
+    {
+      "report": "R1",
+      "marker": "Ferritin",
+      "value": 210,
+      "unit": "ug/L"
+    },
+    {
+      "report": "R2",
+      "marker": "LDL-C",
+      "value": 3.4,
+      "unit": "mmol/L"
+    },
+    {
+      "report": "R2",
+      "marker": "Vitamin D (25-OH)",
+      "value": 71,
+      "unit": "nmol/L"
+    },
+    {
+      "report": "R2",
+      "marker": "hs-CRP",
+      "value": 1.9,
+      "unit": "mg/L"
+    },
+    {
+      "report": "R3",
+      "marker": "LDL Cholesterol",
+      "value": 2.9,
+      "unit": "mmol/L"
+    },
+    {
+      "report": "R3",
+      "marker": "ApoB",
+      "value": 0.92,
+      "unit": "g/L"
+    },
+    {
+      "report": "R3",
+      "marker": "HbA1c",
+      "value": 5.6,
+      "unit": "%"
+    },
+    {
+      "report": "R3",
+      "marker": "hs-CRP",
+      "value": 1.1,
+      "unit": "mg/L"
+    },
+    {
+      "report": "R3",
+      "marker": "hs-CRP",
+      "value": 1.1,
+      "unit": "mg/L"
+    },
+    {
+      "report": "R3",
+      "marker": "Vitamin D (25-OH)",
+      "value": 68,
+      "unit": "nmol/L"
+    },
+    {
+      "report": "R3",
+      "marker": "Ferritin",
+      "value": 205,
+      "unit": "ug/L"
+    },
+    {
+      "report": "U1",
+      "marker": "LDL-C",
+      "value": 104,
+      "unit": "mg/dL"
+    },
+    {
+      "report": "U1",
+      "marker": "25 OH Vitamin D",
+      "value": 31,
+      "unit": "ng/mL"
+    },
+    {
+      "report": "U1",
+      "marker": "Glucose",
+      "value": 5.2,
+      "unit": ""
+    }
+  ],
+  "inbody": [
+    {
+      "date": "2025-03-12",
+      "weight_kg": 82.4,
+      "body_fat_pct": 24.1,
+      "muscle_kg": 34.2
+    },
+    {
+      "date": "2026-03-14",
+      "weight_kg": 78.9,
+      "body_fat_pct": 21.3,
+      "muscle_kg": 35.0
+    }
+  ],
+  "protocols": [
+    {
+      "title": "30 g of fibre a day",
+      "pillar": "Nutrition",
+      "trigger": "LDL Cholesterol",
+      "status": "active"
+    },
+    {
+      "title": "Vitamin D3, 2,000 IU daily",
+      "pillar": "Supplement",
+      "trigger": "Vitamin D (25-OH)",
+      "status": "completed"
+    },
+    {
+      "title": "150 minutes of zone 2 a week",
+      "pillar": "Exercise",
+      "trigger": "hs-CRP",
+      "status": "active"
+    }
+  ],
+  "wearable_last_7_nights": {
+    "sleep_hours": [
+      6.1,
+      5.8,
+      7.2,
+      6.4,
+      5.9,
+      6.6,
+      6.0
+    ],
+    "resting_hr": [
+      58,
+      60,
+      57,
+      59,
+      61,
+      58,
+      57
+    ]
+  }
+}
